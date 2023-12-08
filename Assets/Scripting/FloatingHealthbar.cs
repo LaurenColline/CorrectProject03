@@ -6,11 +6,21 @@ using UnityEngine.UI;
 public class FloatingHealthbar : MonoBehaviour
 {
     [SerializeField] private Slider slider;
-
+    //Rigidbody rb;
+    ///rivate FloatingHealthbar healthbar;
+    private void Awake()
+    {
+       // rb = GetComponent<Rigidbody>();
+        // Manually instantiate the FloatingHealthbar
+        ///healthbar = new GameObject("FloatingHealthbar").AddComponent<FloatingHealthbar>();
+    }
     public void UpdateHealthBar(float currentValue, float maxValue)
     {
         slider.value = currentValue / maxValue;
     }
+
+
+
    // public void SetMaxHealth(int health)
     /// {
     ///     Debug.Log(health);

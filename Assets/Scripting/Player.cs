@@ -13,11 +13,11 @@ public class Player : MonoBehaviour
 
     public UnityEvent<Player> OnCoinCollected;
 
-    public void InstantiatePlayer()
-    {
+  //  public void InstantiatePlayer()
+  //  {
         // Method implementation
        // playerInstance.InstantiatePlayer();
-    }
+   // }
     public void CoinsCollected()
     {
         NumberOfCoins++;

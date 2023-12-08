@@ -17,7 +17,7 @@ public class CoinDamage : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter3D(Collision collision)
+    void OnCollisionEnter3D(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {

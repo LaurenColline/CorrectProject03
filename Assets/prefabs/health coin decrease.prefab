@@ -12,11 +12,13 @@ GameObject:
   - component: {fileID: 4830337364869523487}
   - component: {fileID: 4830337364869523480}
   - component: {fileID: 4830337364869523481}
+  - component: {fileID: 3706982117929675891}
+  - component: {fileID: 6406326950825822391}
   - component: {fileID: 1027249354092003826}
   - component: {fileID: 1199478178234496552}
   m_Layer: 0
   m_Name: health coin decrease
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +102,33 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3706982117929675891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4830337364869523476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339dd7f46ccbfea4091dc9d57986ed67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+--- !u!114 &6406326950825822391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4830337364869523476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac4119ce75c91049aba73716ccf10d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthplayer: {fileID: 0}
+  damageAmount: 10
 --- !u!114 &1027249354092003826
 MonoBehaviour:
   m_ObjectHideFlags: 0

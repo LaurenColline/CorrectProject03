@@ -36,6 +36,7 @@ public class healthonplayer : MonoBehaviour
 
     public void TakeDamage(int CoinDamage)
     {
+
         currentHealth -= CoinDamage;
        // _currentHealth = _currentHealth - CoinDamage;
         healthbar.UpdateHealthBar(currentHealth,maxHealth);
